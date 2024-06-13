@@ -1,12 +1,20 @@
 {
-  "name": "to-do-list",
+  "name": "tasklistbyhijazi",
   "version": "1.0.0",
   "description": "Checklists",
   "main": "index.js",
   "type": "module",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.23",
+    "tasklistbyhijazi": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
 }
